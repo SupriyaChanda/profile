@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.b4d19550.css",
+    "main.js": "/profile/static/js/main.e33ee51c.js",
+    "static/media/supriya.jpg": "/profile/static/media/supriya.c245630acd0661ea702c.jpg",
+    "index.html": "/profile/index.html",
+    "main.b4d19550.css.map": "/profile/static/css/main.b4d19550.css.map",
+    "main.e33ee51c.js.map": "/profile/static/js/main.e33ee51c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4d19550.css",
+    "static/js/main.e33ee51c.js"
+  ]
+}
