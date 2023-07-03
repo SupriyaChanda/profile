@@ -1,0 +1,201 @@
+@media (min-width:768px) and (max-width: 1024px) {
+  .name{
+    font-size: 200%;
+  }
+  .intro{
+    font-size: 120%;
+  }
+  .headings{
+    font-size: 160%;
+  }
+  .side-right, .side-left, .labels {
+    font-size: 105%;
+  }
+  .icons{
+    margin-top: 5%;
+  }
+  .container{
+    width: 45%;
+  }
+  .dates{
+    font-size: 100%;
+  }
+  .publ-desc {
+    font-size: 100%;
+  }
+  .publ-auth {
+    font-size: 90%;
+  }
+  .publ-name{
+    font-size: 90%;
+  }
+  .publ-short{
+    font-size: 90%;
+  }
+  .publ-year{
+    font-size: 90%;
+  }
+}
+
+
+@media (min-width:425px) and (max-width: 768px) {
+  .main{
+    flex-direction: column;
+  }
+  .side-left{
+    width: 100%;
+  }
+  .name{
+    font-size: 170%;
+  }
+  .intro{
+    font-size: 105%;
+  }
+  .img-container{
+    width:80%;
+  }
+  .headings{
+    font-size: 140%;
+  }
+  .side-right, .side-left, .labels {
+    font-size: 101%;
+  }
+  .icons{
+    margin-top: 5%;
+  }
+  .container{
+    width: 100%;
+  }
+  .dates{
+    font-size: 98%;
+  }
+  .contents{
+    font-size: 95%;
+  }
+  .footer{
+    font-size: 90%;
+
+  }
+  .publ-desc{
+    font-size: 90%;
+  }
+  .publ-auth {
+    font-size: 80%;
+  }
+  .publ-name{
+    font-size: 80%;
+  }
+  .publ-short{
+    font-size: 80%;
+  }
+  .publ-year{
+    font-size: 80%;
+  }
+}
+
+
+@media (min-width:320px) and (max-width: 425px) {
+  .start{
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  .main{
+    flex-direction: column;
+  }
+  .side-left{
+    width: 100%;
+  }
+  .name{
+    font-size: 140%;
+    text-align: center;
+  }
+  .intro{
+    font-size: 80%;
+    margin-top: 2%;
+    text-align: center;
+    width: 100%;
+  }
+  .img-container{
+    width:90%;
+  }
+  .headings{
+    font-size: 110%;
+  }
+  .side-right, .side-left, .labels {
+    font-size: 90%;
+  }
+  .icons{
+    margin-top: 5%;
+  }
+  .container{
+    width: 100%;
+    margin: 4% 2%;
+  }
+  .about{
+    padding: 5% 4%;
+  }
+  .dates{
+    font-size: 85%;
+  }
+  .contents{
+    font-size: 90%;
+    padding: 2%;
+  }
+  .footer{
+    font-size: 87%;
+
+  }
+  .start{
+    padding: 7% 1%;
+  }
+  .publ-desc {
+    font-size: 70%;
+  }
+  .publ-auth {
+    font-size: 60%;
+  }
+  .publ-name{
+    font-size: 60%;
+  }
+  .publ-year{
+    font-size: 60%;
+  }
+  .publ-short{
+    font-size: 50%;
+  }
+  .publ-last{
+    padding: 0;
+  }
+  .publ-div{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .publ-border{
+    border:none;
+  }
+  .publ-last{
+    padding: 0;
+  }
+  .popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 80%;
+    height: 50%;
+    padding: 2px;
+  }
+  .modal{
+    height: 83%;
+  }
+  .content{
+    overflow-y: scroll;
+    height: 100%;
+    font-size: 90%;
+  }
+  .mem-icon{
+    width: 0.5rem;
+  }
+
+}
+
