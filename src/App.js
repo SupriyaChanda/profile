@@ -284,7 +284,7 @@ function App() {
               
             </div>
         </div>
-        <div className='py-[5%]  px-[2%] footer flex justify-center items-center bg-yellow-200'>
+        <div className='py-[1%]  px-[2%] footer flex justify-center items-center bg-yellow-200'>
           <div className='text-center w-[80%] font-bold font-mono'>
           <a href='https://www.iitbhu.ac.in/' target='_blank' rel="noreferrer">
 
