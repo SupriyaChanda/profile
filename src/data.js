@@ -6,7 +6,7 @@ export const data=[
         authors: "Supriya Chanda, Sukomal Pal",
         year: "2023",
         link: "https://link.springer.com/article/10.1007/s42979-023-01942-7",
-        bibtex: "@article{Chanda2023,\ndoi = {10.1007/s42979-023-01942-7},\nurl = {https://doi.org/10.1007/s42979-023-01942-7},\nyear = {2023},\nmonth = jun,\npublisher = {Springer Science and Business Media {LLC}},\nvolume = {4},\nnumber = {5},\nauthor = {Supriya Chanda and Sukomal Pal},\ntitle = {The Effect of Stopword Removal on Information Retrieval for Code-Mixed Data Obtained Via Social Media},\njournal = {{SN} Computer Science}\n}",
+        bibtex: "@article{Chanda2023, \ndoi = {10.1007/s42979-023-01942-7},\nurl = {https://doi.org/10.1007/s42979-023-01942-7},\nyear = {2023},\nmonth = jun,\npublisher = {Springer Science and Business Media {LLC}},\nvolume = {4},\nnumber = {5},\nauthor = {Supriya Chanda and Sukomal Pal},\ntitle = {The Effect of Stopword Removal on Information Retrieval for Code-Mixed Data Obtained Via Social Media},\njournal = {{SN} Computer Science}\n}",
         
     },
     {
