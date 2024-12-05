@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GeoSocial 2023</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        body {
+            padding-top: 50px;
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        
+        .navbar {
+            background-color: #343a40;
+            color: white;
+        }
+        
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .nav-link {
+            color: white;
+            font-size: 18px;
+        }
+        
+        .jumbotron {
+            background-color: #EBF5FB;
+            color: #0B5345;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            border-radius: 4;
+        }
+        
+        .jumbotron h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .jumbotron p {
+            font-size: 24px;
+            margin-bottom: 0;
+        }
+        
+        .card {
+            margin-top: 20px;
+            border: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        
+        .card:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .card-header {
+            background-color: #17a2b8;
+            color: white;
+            padding: 20px;
+            border-bottom: none;
+            border-radius: 0;
+        }
+        
+        .card-header h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+        }
+		footer {
+    background-color: #5C6AC4;
+	max-height: 20px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  
+  .organizer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+  }
+  .organizer-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+  
+  .organizer-card img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .organizer-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .organizer-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">GeoSocial 2023</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#cfp">Call for Papers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#submission">Submission Guidelines</a></li>
+                <li class="nav-item"><a class="nav-link" href="#dates">Important Dates</a></li>
+				<li class="nav-item"><a class="nav-link" href="#papers">Accepted Papers</a></li>
+				<li class="nav-item"><a class="nav-link" href="#panels">Panel Discussion</a></li>
+				<li class="nav-item"><a class="nav-link" href="#committee">Organizing Committee</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to GeoSocial 2023!</h1>
+            <p class="lead">1st ACM SIGSPATIAL International Workshop on
+Geocomputational Analysis of Socio-Economic Data</p>
+<p class="h9"><small class="text-muted">To be held in 31st ACM SIGSPATIAL
+International Conference on Advances
+in Geographic Information Systems
+(ACM SIGSPATIAL 2023)</small></p>
+        </div>
+		<div class="card">
+  <div class="card-header" style="padding: 20px; background: #E8DAEF; border-radius: 20px; margin: 10px;">
+   <p style="color: #333; font-size: 18px; line-height: 1.5;"> In collaboration with ACM SIGSPATIAL, we are pleased to announce the call for papers for GeoSocial 2023, a workshop dedicated to bridging the gap between geocomputational methods and socio-economic data analysis. The workshop aims to bring together a diverse community of researchers, practitioners, and students from various disciplines to exchange ideas, share knowledge, and foster collaboration in the burgeoning field of geocomputational analysis.</p> 
+  </div>
+</div>
+        
+		
+		<section id="cfp">
+      <div class="section-content" style="padding: 20px; background: #EBF5FB; border-radius: 20px; margin: 10px;">
+  <h1 style="color: #283747; font-size: 28px; margin-bottom: 20px;"><u>Call for Papers</u></h2>
+  <p style="color: #333; font-size: 18px; line-height: 1.5;">We invite original research contributions, work-in-progress papers, and demos related to the workshop's theme. Topics of interest include but are not limited to:</p>
+  <ul style="list-style: disc; padding: 0 0 0 40px; font-size: 16px;">
+   <li> AI/ML driven geospatial analysis of socio-economic data </li>
+<li>	Predictive models for socio-economic datasets – spatial regression models, deep learning models etc. </li>
+<li>	Spatial data infrastructure for harvesting, analysing of socio-economic indicators </li>
+<li>	Volunteered Geographic Information (VGI) for socio-economic data collection </li>
+<li>	Sustainable socio-economic development, Promoting sustainable socio-economic growth </li>
+<li>	Satellite remote sensing data, night-time light (NTL) data for socio-economic data analysis </li>
+<li>	Data fusion techniques and analytics for prediction and forecasting across space and time </li>
+<li>	Challenges of global change, climate change </li>
+<li>Analysis of socio-demographic data (income) and integration of contextual datasets (night-time light, transportation, housing conditions, greenhouse gas emissions) which can act as a proxy of socio-economic indicator </li>
+<li> Real-time analysis of dynamic and distributed socio-economic data </li>
+<li>	Geo-intelligence for sustainable socio-economic development </li>
+
+  </ul>
+</div>
+    </section>
+		
+		<section id="submission">
+      <div class="section-content" style="padding: 20px; background: #F4F6F6; border-radius: 20px; margin: 10px;">
+  <h1 style="color: #283747; font-size: 28px; margin-bottom: 20px;"><u>Submission Guidelines</u></h2>
+  <p style="color: #333; font-size: 18px; line-height: 1.5;"> All papers must be original and not simultaneously submitted to another journal or conference. The following paper categories are welcome:
+<ul style="list-style: disc; padding: 0 0 0 40px; font-size: 16px;">
+<li> Full papers: Full papers (8 pages + references) should present novel perspectives within the general scope of the conference. They must report on original research and will be subject to a double-blind peer review process. </li>
+<li> Short papers: Short papers (4 pages + references) may focus on a narrowly defined topic, may report on preliminary results (or work-in progress), or may present relevant study results that do not warrant a full paper. </li>
+<li> Posters: Poster submissions (2 pages + references) should detail innovative ideas or present preliminary results for discussion. </li>
+</ul>
+<mark>Accepted papers will be included in the workshop proceedings, which will be published in the ACM Digital Library. At least one author of each accepted paper must register for the workshop and present the paper.</mark> <br> <br>
+<em>Please check the SigSpatial paper formatting guidelines for more information. For more information about submission requirements and the review process, please visit our website or contact the workshop organizers. We look forward to your contributions to this exciting field and to seeing you at the workshop. </em>
+
+</p>
+</div>
+    </section>
+		
+		<section id="dates">
+      <div class="section-content" style="padding: 20px; background: #EAFAF1; border-radius: 20px; margin: 10px;">
+  <h1 style="color: #283747; font-size: 28px; margin-bottom: 20px;"><u>Important Dates</u></h2>
+  <p style="color: #333; font-size: 18px; line-height: 1.5;">Submission deadline: <mark>August 20, 2023 </mark><br>
+Notification of acceptance: <mark>September 20, 2023</mark> <br>
+Camera-ready papers due: <mark>October 20, 2023</mark> <br>
+Workshop dates: <mark>November 13, 2023</mark> <br>
+Papers should be submitted electronically through the EasyChair submission system:
+<a href="https://easychair.org/conferences/?conf=geosocial2023" target="_blank" class="btn btn-primary">Submission Link!</a>
+</p>
+</div>
+    </section>
+	
+	<section id="papers">
+      <div class="section-content" style="padding: 20px; background: #F4F6F6; border-radius: 20px; margin: 10px;">
+  <h1 style="color: #283747; font-size: 28px; margin-bottom: 20px;"><u>Accepted Papers</u></h2>
+  <p style="color: #333; font-size: 18px; line-height: 1.5;"> Details will be available here.</p>
+  </section>
+		
+		<section id="panels">
+      <div class="section-content" style="padding: 20px; background: #EBF5FB; border-radius: 20px; margin: 10px;">
+  <h1 style="color: #283747; font-size: 28px; margin-bottom: 20px;"><u>Keynote Speakers and Panel Discussion</u></h2>
+  <p style="color: #333; font-size: 18px; line-height: 1.5;"> Details coming soon.</p>
+  </section>
+  
+  
+  <section id="committee">
+      <div class="section-content" style="padding: 20px; background: #F8F9F9 ; border-radius: 20px; margin: 10px;">
+  <h1 style="color: #283747; font-size: 28px; margin-bottom: 20px;"><u>Workshop Organizers</u></h2>
+        <div class="organizer-grid">
+      <div class="organizer-card">
+        <img src="SKG.jpg" alt="Organizer 1">
+        <h3>Soumya K. Ghosh</h3>
+        <p>Professor, Department of Computer Science and Engineering, Indian Institute of Technology Kharagpur, India </p> <div class="spacer"></div>
+			<div class="icons">
+    <a href="https://scholar.google.co.in/citations?user=wTtdGd4AAAAJ&hl=en" target="_blank" class="icon"><i class="fas fa-graduation-cap"></i></a>
+    <a href="http://www.iitkgp.ac.in/department/CS/faculty/cs-skg" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
+    <a href="mailto:skg@cse.iitkgp.ac.in" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+  </div>
+      </div>
+	  <div class="organizer-card">
+        <img src="SG.jpeg" alt="Organizer 4">
+        <h3>Shreya Ghosh</h3>
+        <p>Postdoctoral Scholar <br> The Pennsylvania State University, USA</p> <br>
+		<div class="icons">
+    <a href="https://scholar.google.co.in/citations?user=a5OKo7wAAAAJ&hl=en" target="_blank" class="icon"><i class="fas fa-graduation-cap"></i></a>
+    <a href="https://shreyaghosh-2016.github.io/" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
+    <a href="mailto:shreya@psu.edu" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+  </div>
+		
+		      </div>
+      <div class="organizer-card">
+        <img src="BB.jpg" alt="Organizer 2">
+        <h3>Budhendra Bhaduri</h3>
+        <p>Director, Geospatial Science and Human Security Division, Oak Ridge National Laboratory</p> <br> <div class="spacer"></div>
+	<div class="icons">
+    <a href="https://scholar.google.com/citations?user=khPg8ocAAAAJ&hl=en" target="_blank" class="icon"><i class="fas fa-graduation-cap"></i></a>
+    <a href="https://www.ornl.gov/staff-profile/budhu-l-bhaduri" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
+    <a href="mailto:bhaduribl@ornl.gov" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+  </div>
+      </div>
+      
+     <div class="organizer-card">
+        <img src="AZ.jpg" alt="Organizer 4">
+        <h3>Alexander Zipf</h3>
+        <p>Professor, Heidelberg University, Chair of GIScience, HeiGIT Heidelberg Institute for Geoinformation Technology</p>
+	<div class="icons">
+    <a href="https://scholar.google.com/citations?user=1TAZiPwAAAAJ&hl=en&oi=ao" target="_blank" class="icon"><i class="fas fa-graduation-cap"></i></a>
+    <a href="https://www.geog.uni-heidelberg.de/gis/index_en.html" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
+    <a href="mailto:zipf@uni-heidelberg.de" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+  </div>
+      </div>
+      
+    </div>
+	
+	
+		
+	 
+   <div style="text-align: center; padding: 20px; background: #f2f2f2; border-radius: 10px;">
+    <h2 style="color: #333; font-size: 28px; margin-bottom: 20px;">PROGRAM COMMITTEE</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li><strong>Wenwen Li</strong>, Arizona State University, USA </li>
+<li> <strong>René Westerholt</strong>, TU Dortmund University, Dortmund, Germany </li>
+<li> <strong>Paul Longley</strong>, University College London, London, UK </li>
+<li> <strong>Pabitra Mitra</strong>, Indian Institute of Technology Kharagpur, India </li>
+<li> <strong>Edwin Sabuhoro</strong>, Pennsylvania State University, USA </li>
+<li> <strong>Sayak Roychowdhury</strong>, Indian Institute of Technology Kharagpur, India </li>
+<li> <strong>Rajan K.S.</strong>, International Institute of Information Technology, Hyderabad, India </li>
+<li> <strong>Jamal Jokar Arsanjani</strong>, Alborg University, Denmark </li>
+<li><strong>Bharath H Aithal</strong>, Indian Institute of Technology Kharagpur,
+India </li>
+<li> <strong>Sven Lautenbach</strong>, Heidelberg University, Germany </li>
+<li> <strong>Stefano De Sabbata</strong>, The University of Leicester, Leicester, UK </li>
+
+    </ul>
+</div>
+    </main>
+	
+<footer>
+    <p>&copy; 2023 GeoSocial. All rights reserved.</p>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

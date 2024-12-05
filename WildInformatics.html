@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Wild-Informatics 2023</title>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+<style>
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #5C6AC4;
+  }
+
+  header {
+    background-color: #5C6AC4;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  header h1 {
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-weight: 300;
+    font-size: 1.5em;
+  }
+
+  nav {
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    padding: 20px;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 10px;
+  }
+
+  section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  section p {
+    font-size: 1em;
+  }
+
+  section img {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    font-size: 0.9em;
+    border-radius: 4px;
+  }
+
+  form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5C6AC4;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  form input[type="submit"]:hover {
+    background-color: #333;
+  }
+
+  footer {
+    background-color: #5C6AC4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+ .organizer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+  }
+  .organizer-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+  
+  .organizer-card img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .organizer-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .organizer-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    background-color: #5C6AC4;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #4A58B0;
+  }
+
+  .btn-primary:active {
+    background-color: #3F4C96;
+  }
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .icon {
+    color: #333;
+    padding: 5px 10px;
+    font-size: 1.5em; /* Adjust the size of the icons */
+    transition: color 0.3s ease;
+  }
+
+  .icon:hover {
+    color: #5C6AC4;
+  }
+  .spacer {
+    height: 4px;
+	}
+	.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 990px) {
+  #particles-js{
+  height: 36em;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  #particles-js{
+  height: 38em;
+  }
+}
+
+
+@media only screen and (max-width: 507px) {
+  #particles-js{
+  height: 44em;
+  }
+}
+
+
+@media only screen and (max-width: 365px) {
+  #particles-js{
+  height: 48em;
+  }
+}
+
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
+}
+
+
+</style>
+
+
+
+<!--header>
+    <div class="header-content">
+      <h1>GeoWildLife 2023</h1>
+      <p>AI-driven Spatio-temporal Data Analysis for Wildlife Conservation</p>
+    </div>
+  </header-->
+  
+  
+<header class="bigheader py-5 mb-5" style="position: relative; background: url('./wild.jpg') no-repeat center center; background-size: cover;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.1);"></div>
+    <!-- particles.js container -->
+    <div id="particles-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-12">
+                    <h2 class="headertxt display-5 text-white mt-3 mb-2">1st International Workshop</h2>
+                    <h1 class="headertxt display-4 text-white mt-2 mb-2" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);">Wild-Informatics: Knowledge Extraction and Management for Wildlife Conservation.</h1>
+
+                    <h2 class="headertxt display-5 text-white mt-4 mb-2">Oct 22, 2023. Birmingham, UK.</h2>
+                    <h3 class="headertxt text-white">To be held in <b>CIKM 2023 (pending approval)</b><a href="https://uobevents.eventsair.com/cikm2023/" target="_blank">&#9808;</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<nav style="background: #333; color: white; padding: 10px 0; text-align: center;">
+    <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center;">
+        <li style="margin: 0 15px;"><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+        <li style="margin: 0 15px;"><a href="#cfp" style="color: white; text-decoration: none;">CFP</a></li>
+        <li style="margin: 0 15px;"><a href="#dates" style="color: white; text-decoration: none;">Important Dates</a></li>
+        <li style="margin: 0 15px;"><a href="#keynote" style="color: white; text-decoration: none;">Keynote Speakers</a></li>
+        <li style="margin: 0 15px;"><a href="#accepted" style="color: white; text-decoration: none;">Accepted Papers and Schedule</a></li>
+        <li style="margin: 0 15px;"><a href="#organizers" style="color: white; text-decoration: none;">Organizations</a></li>
+    </ul>
+</nav>
+
+
+
+  <main>
+   <section id="about" style="background: #f2f2f2; padding: 30px; border-radius: 15px; margin: 20px;">
+    <div class="section-content">
+        <h2 class="display-4 text-primary">About the Workshop</h2>
+		<p class="lead">In line with the CIKM conference’s thematic interests in knowledge extraction and management, this workshop’s primary objective is to explore and enhance AI’s role in big data analysis for wildlife conservation, in brief, Nature Through
+the Lens of AI. It seeks to address crucial challenges related to data heterogeneity, scale integration, data privacy,
+mitigating biases, and decision-making under uncertainty. This workshop is centred around leveraging AI’s prowess
+in deciphering complex spatio-temporal data patterns for wildlife conservation, thereby contributing significantly to
+the broader canvas of AI for social good. </p>
+        <p class="lead">The goal of this workshop is to advance the state-of-the-art in AI-driven spatio-temporal data analysis for wildlife conservation. By connecting computer scientists, geospatial scientists, ecologists, and conservation practitioners, the workshop seeks to promote interdisciplinary collaboration and drive real-world impact. Through a series of keynote presentations, panel discussions, and interactive sessions, participants will explore various topics including remote sensing technologies, predictive modeling, movement ecology, species distribution modeling, habitat quality assessment, and mitigating human-wildlife conflict. Special focus will be given to ethically and responsibly harnessing AI to ensure the sustainability of conservation efforts.</p>
+		
+        <p class="lead">Accepted papers will be included in the workshop proceedings, however, authors will have the option to opt out of the proceedings. Such papers will be published on the workshop’s website and will not be considered archival for resubmission purposes. At least one author of each accepted paper must register for the workshop and present the paper.</p>
+    </div>
+</section>
+
+
+    <section id="cfp">
+      <div class="section-content" style="padding: 20px; background: #e6f7ff; border-radius: 10px; margin: 20px;">
+  <h2 style="color: #0050b3; font-size: 28px; margin-bottom: 20px;">Call for Papers</h2>
+  <p style="color: #333; font-size: 18px; line-height: 1.5;">We invite original research contributions, work-in-progress papers, and demos related to the workshop's theme. Topics of interest include but are not limited to:</p>
+  <ul style="list-style: disc; padding: 0 0 0 40px; font-size: 16px;">
+    <li>Remote Sensing and Wildlife Monitoring: AI interpretation of remote sensing data for tracking animal populations, identifying habitats, and monitoring ecosystem health.</li>
+    <li>Predictive Modeling for Conservation: AI-driven models to predict species movements, population changes, and the effects of environmental changes on wildlife.</li>
+    <li>Movement Ecology and AI: Using AI to better understand species behavior and movement patterns based on spatial and temporal data.</li>
+    <li>Species Distribution Modelling: Applications of AI in predicting and mapping the spatial distribution of different species under changing climate scenarios.</li>
+    <li>AI in Habitat Quality Assessment: Employing AI algorithms to analyze and interpret spatial data for evaluating habitat quality and suitability.</li>
+    <li>Mitigating Human-Wildlife Conflict: Developing AI tools to predict and prevent conflicts between humans and wildlife, such as crop-raiding by wild animals or human-induced threats to wildlife.</li>
+    <li>Conservation Planning and Decision Support Systems: Using AI to aid in spatial planning for conservation, such as identifying priority areas for protection and informing the decision-making processes.</li>
+    <li>AI, Ethics, and Wildlife Conservation: Discussions on the ethical implications of using AI in wildlife conservation, including concerns related to privacy, surveillance, and data ownership.</li>
+    <li>Socio-Political Implications of AI in Conservation: Understanding the socio-political dimensions of AI-based conservation strategies, including potential impacts on indigenous and local communities.</li>
+    <li>AI-driven Citizen Science in Conservation: Leveraging AI to enhance the role of citizen science in wildlife monitoring and conservation efforts.</li>
+  </ul>
+</div>
+    </section>
+
+    <section id="dates" style="background: #e6f7ff; padding: 30px; border-radius: 15px; margin: 20px;">
+    <div class="section-content">
+        <h2 class="display-4 text-primary">Important Dates</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Paper submission deadline: Aug 16, 2023 (AoE)</li>
+            <li class="list-group-item">Notification of acceptance: Sept 15, 2023</li>
+            <li class="list-group-item">Camera-ready paper deadline: Oct 02, 2023 (AoE)</li>
+            <li class="list-group-item">Workshop date: Oct 22, 2023</li>
+			<br>
+            
+        </ul>
+    </div>
+</section>
+
+<section id="keynote" style="background: #f2f2f2; padding: 30px; border-radius: 15px; margin: 20px;">
+    <div class="section-content">
+        <h2 class="display-4 text-primary">Keynote Speakers</h2>
+        <p class="lead">Coming soon...</p>
+    </div>
+</section>
+
+<section id="accepted" style="background: #e6f7ff; padding: 30px; border-radius: 15px; margin: 20px;">
+    <div class="section-content">
+        <h2 class="display-4 text-primary">Accepted Papers and Schedule</h2>
+        <p class="lead">Will be available here</p>
+    </div>
+</section>
+
+
+<section id="organizers">
+  <div class="section-content">
+    <h2>Organizers</h2>
+    <div class="organizer-grid">
+      <div class="organizer-card">
+        <img src="PM.jpg" alt="Organizer 1">
+        <h3>Prasenjit Mitra</h3>
+        <p>Professor, The Pennsylvania State University, USA and Visiting Professor, Leibniz University, Hannover, Germany </p> <div class="spacer"></div>
+			<div class="icons">
+    <a href="https://scholar.google.co.in/citations?user=8PbgiPkAAAAJ&hl=en&oi=ao" target="_blank" class="icon"><i class="fas fa-graduation-cap"></i></a>
+    <a href="https://ist.psu.edu/directory/pum10" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
+    <a href="mailto:pum10@psu.edu" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+  </div>
+      </div>
+      <div class="organizer-card">
+        <img src="BD.jpg" alt="Organizer 2">
+        <h3>Bistra Dilkina</h3>
+        <p>Associate Professor, Computer Science,
+Co-Director, Center for Artificial Intelligence in Society (CAIS),
+University of Southern California, USA</p> <div class="spacer"></div>
+	<div class="icons">
+    <a href="https://scholar.google.co.in/citations?user=1jjyaBYAAAAJ&hl=en&oi=ao" target="_blank" class="icon"><i class="fas fa-graduation-cap"></i></a>
+    <a href="https://viterbi.usc.edu/directory/faculty/Dilkina/Bistra" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
+    <a href="mailto:dilkina@usc.edu" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+  </div>
+      </div>
+      
+     <div class="organizer-card">
+        <img src="TM.jpg" alt="Organizer 4">
+        <h3>Thomas Müller</h3>
+        <p>Professor for Movement Ecology and Biodiversity Conservation, Goethe University and Senckenberg Biodiversity and Climate
+Research Centre, Frankfurt, Germany</p>
+	<div class="icons">
+    <a href="https://scholar.google.co.in/citations?hl=en&user=rM7Oa0kAAAAJ" target="_blank" class="icon"><i class="fas fa-graduation-cap"></i></a>
+    <a href="https://www.senckenberg.de/en/institutes/sbik-f/movement-ecology/team-movement-ecology/" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
+    <a href="mailto:thomas.mueller@senckenberg.de" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+  </div>
+      </div>
+      <div class="organizer-card">
+        <img src="SG.jpeg" alt="Organizer 4">
+        <h3>Shreya Ghosh</h3>
+        <p>Postdoctoral Scholar <br> The Pennsylvania State University, USA</p> <br>
+		<div class="icons">
+    <a href="https://scholar.google.co.in/citations?user=a5OKo7wAAAAJ&hl=en" target="_blank" class="icon"><i class="fas fa-graduation-cap"></i></a>
+    <a href="https://shreyaghosh-2016.github.io/" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
+    <a href="mailto:shreya@psu.edu" target="_blank" class="icon"><i class="fas fa-envelope"></i></a>
+  </div>
+		
+		      </div>
+    </div>
+		
+	 
+   <div style="text-align: center; padding: 20px; background: #f2f2f2; border-radius: 10px;">
+    <h2 style="color: #333; font-size: 28px; margin-bottom: 20px;">PROGRAM COMMITTEE</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li><strong>Sanjay Chawla</strong>, Research Director of QCRI’s Data Analytics department</li>
+      <li><strong>Dan Morris</strong>, Research Scientist, Google AI for Nature and Society</li>
+      <li><strong>Bing Pan</strong>, Professor of Commercial Recreation and Tourism, The Pennsylvania State University</li>
+      <li><strong>Lily Xu</strong>, Ph.D. Student, Harvard University, USA</li>
+      <li><strong>Fei Fang</strong>, Assistant Professor of Computer Science at Carnegie Mellon University, Pennsylvania</li>
+      <li><strong>Emmanuel Dufourq</strong>, AIMS-Canada Junior Research Chair</li>
+      <li><strong>Johnson Kinyua</strong>, Associate Teaching Professor, College of IST, Pennsylvania State University, USA</li>
+      <li><strong>Brendan Derrick Taff</strong>, Associate Professor, Recreation, Park, and Tourism Management, The Pennsylvania State University, USA</li>
+      <li><strong>Edwin Sabuhoro</strong>, Assistant Professor,Recreation, Park, and Tourism Management, The Pennsylvania State University, USA</li>
+      <li><strong>Gileard Minja</strong>, Mwenge Catholic University Tanzania</li>
+      <li><strong>Derek Lee</strong>, The Pennsylvania State University, USA</li>
+      <li><strong>Andrew Perrault</strong>, Assistant Professor, The Ohio State University, USA</li>
+      <li><strong>Titus Enock Adhola</strong>, Lecturer, University of Nairobi, Kenya</li>
+      <li><strong>Randall Boone</strong>, Assistant Professor, Colorado State University, USA</li>
+      <li><strong>Lorène Jeantet</strong>, Postdoctoral Researcher, University of Stellenbosch, African Institute for Mathematical Sciences - AIMS South Africa</li>
+    </ul>
+</div>
+
+  
+	 
+  </div>
+</section>
+
+<!-- And this CSS in your style section -->
+
+
+ 
+
+<footer>
+    <p>&copy; 2023 Wild-Informatics. All rights reserved.</p>
+  </footer>
+<script>
+    particlesJS('particles-container',
+        {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                },
+                "opacity": {
+                    "value": 0.3,
+                    "random": false,
+                },
+                "size": {
+                    "value": 8,
+                    "random": true,
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 900,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        }
+    );
+</script>
+</body>
+</html>
+   
