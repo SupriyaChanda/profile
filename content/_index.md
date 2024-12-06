@@ -253,7 +253,7 @@ sections:
       #subtitle:
       #text: |-
       #Contact (add or remove contact options as necessary)
-      email: shreya.cst@gmail.com
+      email: suplife24@gmail.com
       phone: 814-769-3989
       #appointment_url: 'https://calendly.com'
       address:
