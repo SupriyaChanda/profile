@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Supriya's Webpage # Website name
-baseURL: 'https://supriyachanda.github.io/profile/' # Website URL
+baseURL: 'https://supriyachanda.github.io' # Website URL
 
 ############################
 ## LANGUAGE
