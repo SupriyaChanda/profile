@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-12-06
 type: landing
 
 sections:
@@ -19,7 +19,7 @@ sections:
       text: |-
         {{% callout note %}}
         **See Full Publication**  
-        [**Google Scholar Link**](https://scholar.google.com/citations?user=a5OKo7wAAAAJ&hl=en)
+        [**Google Scholar Link**](https://scholar.google.com/citations?user=wB9WetAAAAAJ&hl=en)
         {{% /callout %}}
       filters:
         folders:
@@ -83,51 +83,35 @@ sections:
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Postdoctoral scholar
-          company: The Pennsylvania State University
-          company_url: 'https://www.psu.edu/'
-          company_logo: org-gc
-          location: Pennsylvania, USA
-          date_start: '2021-12-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * **Research (Misinformation detection):** Understanding misinformation propagation in social network and proposing mitigation techniques
-              * **Research (Wildlife informatics):** Predicting human wildlife conflicts and mitigating strategies
-              * **Research (Night time data analytics)**
-              * **Research (Exploring generative language model for cross-domain applications such as trajectory trace analysis)** 
-              * Student Mentoring and assisting in their research
-              
-        - title: Senior research associate
-          company: Indian Institute of Technology Kharagpur (IIT Kharagpur)
-          company_url: 'https://www.iitkgp.ac.in/'
-          company_logo: iitkgp
-          location: Kharagpur, India
-          date_start: '2021-01-01'
-          date_end: '2021-11-30'
-          description: Led research project on COVID-19 and mentored undergraduate and postgraduate students. • Analysis of mobility and other context and predicting COVID-19 hotspots and assisting in zone-based lockdown strategy. • Socio-economical impacts of COVID-19 at India
+      items:             
+        #- title: Senior research associate
+        #  company: Indian Institute of Technology Kharagpur (IIT Kharagpur)
+        #  company_url: 'https://www.iitkgp.ac.in/'
+        #  company_logo: iitkgp
+        #  location: Kharagpur, India
+        #  date_start: '2021-01-01'
+        #  date_end: '2021-11-30'
+        #  description: Led research project on COVID-19 and mentored undergraduate and postgraduate students. • Analysis of mobility and other context and predicting COVID-19 hotspots and assisting in zone-based lockdown strategy. • Socio-economical impacts of COVID-19 at India
               
         - title: PhD research scholar
-          company: Indian Institute of Technology Kharagpur (IIT Kharagpur)
-          company_url: 'https://www.iitkgp.ac.in/'
-          company_logo: iitkgp
-          location: Kharagpur, India
-          date_start: '2016-08-01'
-          date_end: '2020-12-30'
+          company: Indian Institute of Technology (BHU)
+          company_url: 'https://www.iitbhu.ac.in/'
+          company_logo: iitbhu
+          location: Varanasi, India
+          date_start: '2018-07-18'
+          date_end: '2024-10-07'
           description: |2-
               Research projects include:
 
-              * Analysis of large scale GPS traces to explore human movement behaviours and Transferring mobility knowledge from source to target region to annotate trajectory trips and POI-classification
+            #  * Analysis of large scale GPS traces to explore human movement behaviours and Transferring mobility knowledge from source to target region to annotate trajectory trips and POI-classification
 
               
 
-              * Temporal fingerprinting of individuals by modelling and analysing their activity patterns
+            #  * Temporal fingerprinting of individuals by modelling and analysing their activity patterns
 
-              * Cloud-fog-edge-IoT based collaborative framework to facilitate applications related to improved health-care, transportation and urban planning in less delay along with less energy consumption
+            #  * Cloud-fog-edge-IoT based collaborative framework to facilitate applications related to improved health-care, transportation and urban planning in less delay along with less energy consumption
 
-              * Developed Activity-aware Internet of Health Things (IoHT), and Mobility-aware Internet of Spatial Things (Mobi-IoST)
+            #  * Developed Activity-aware Internet of Health Things (IoHT), and Mobility-aware Internet of Spatial Things (Mobi-IoST)
               
         - title: MS research scholar
           company: Indian Institute of Technology Kharagpur (IIT Kharagpur)
@@ -254,27 +238,26 @@ sections:
       #text: |-
       #Contact (add or remove contact options as necessary)
       email: suplife24@gmail.com
-      phone: 814-769-3989
+      phone: +919488205994
       #appointment_url: 'https://calendly.com'
       address:
-        street: 413A Eric J. Barron Innovation Hub
-        city: State College
-        region: PA
-        postcode: '16801'
-        country: United States
-        country_code: US
+        street: TF-01, Information Retrieval Lab
+        city: Dept. of Computer Science and Engineering, Indian Institute of Technology (Banaras Hindu University)
+        region: Varanasi, Uttar Pradesh
+        postcode: '221005'
+        country: India
+        country_code: IND
       #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/cstghosh'
-        
+          link: 'https://x.com/SUPLIFE24'
         - icon: video
           icon_pack: fas
           name: Zoom Me
-          link: 'https://psu.zoom.us/my/shreya2022'
+          link: 'https://psu.zoom.us/my/suplife24'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
