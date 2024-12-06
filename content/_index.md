@@ -102,16 +102,6 @@ sections:
           date_end: '2024-10-07'
           description: |2-
               Research projects include:
-
-            #  * Analysis of large scale GPS traces to explore human movement behaviours and Transferring mobility knowledge from source to target region to annotate trajectory trips and POI-classification
-
-              
-
-            #  * Temporal fingerprinting of individuals by modelling and analysing their activity patterns
-
-            #  * Cloud-fog-edge-IoT based collaborative framework to facilitate applications related to improved health-care, transportation and urban planning in less delay along with less energy consumption
-
-            #  * Developed Activity-aware Internet of Health Things (IoHT), and Mobility-aware Internet of Spatial Things (Mobi-IoST)
               
         - title: MS research scholar
           company: Indian Institute of Technology Kharagpur (IIT Kharagpur)
